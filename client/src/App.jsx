@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Wallet, ArrowUpRight, ArrowDownLeft, LogOut, PlusCircle, ShieldCheck } from 'lucide-react';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://my-global-wallet.onrender.com/api';
 
 export default function App() {
   const [user, setUser] = useState(null);
