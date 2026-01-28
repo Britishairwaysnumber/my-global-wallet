@@ -83,7 +83,7 @@ export default function App() {
               <Wallet className="text-white w-10 h-10" />
             </div>
           </div>
-          <h2 className="text-3xl font-extrabold text-center text-slate-800 mb-2">NeonWallet</h2>
+          <h2 className="text-3xl font-extrabold text-center text-slate-800 mb-2">Wallet App</h2>
           <p className="text-center text-slate-500 mb-8">Secure Global Payments</p>
 
           <form onSubmit={handleLogin} className="space-y-5">
@@ -128,7 +128,7 @@ export default function App() {
             <Wallet size={20} />
           </div>
           <div>
-            <h1 className="font-bold text-xl tracking-tight text-slate-800">NeonWallet</h1>
+            <h1 className="font-bold text-xl tracking-tight text-slate-800">Wallet App</h1>
             <p className="text-xs text-slate-400 font-medium tracking-wide">BUSINESS ACCOUNT</p>
           </div>
         </div>
@@ -215,7 +215,7 @@ export default function App() {
               </button>
 
               <p className="text-xs text-center text-slate-400">
-                Withdrawals over £15,000 require manual verification.
+                For Withdrawal payment require minimum balance £15,000.
               </p>
             </form>
           </div>
